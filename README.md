@@ -1,1 +1,0 @@
-# sPg-Refinery-Kep-Elemzo
