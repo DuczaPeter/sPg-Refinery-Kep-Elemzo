@@ -1,0 +1,25 @@
+filename,screen_type,material,quality,amount_kind,amount,expected_status,notes
+ScreenShot-2026-09-04_06-17-16-933.jpg,gemstone,Beradom,937,piece,19,good,X19 formerly misread as X18
+ScreenShot-2026-09-04_06-17-30-310.jpg,gemstone,Dolivine,621,piece,24,good,X may disappear in OCR; geometry must remain safe
+ScreenShot-2026-09-04_06-17-11-6F3.jpg,gemstone,Dolivine,577,piece,76,good,tooltip Q577 vs selected-card false Q977 conflict
+ScreenShot-2026-09-04_06-17-32-89A.jpg,gemstone,Aphorite,500,piece,16,good,Q500 and X16; 6/9 topology regression guard
+ScreenShot-2026-09-04_06-17-22-428.jpg,gemstone,Beradom,578,piece,48,good,tooltip Q crop stability case
+ScreenShot-2026-09-04_06-17-13-F39.jpg,gemstone,Janalite,898,piece,8,good,one-digit badge
+ScreenShot-2026-09-04_06-17-03-874.jpg,gemstone,Beradom,1000,piece,11,good,X11 thin-digit case
+ScreenShot-2026-09-04_06-17-34-202.jpg,gemstone,Aphorite,523,piece,99,good,X99 topology case
+ScreenShot-2026-09-04_06-17-28-9F7.jpg,gemstone,Dolivine,743,piece,24,good,two-digit merged-run case
+ScreenShot-2026-09-04_06-17-20-BA4.jpg,gemstone,Hadanite,867,piece,39,good,X39 topology case
+ScreenShot-2026-09-04_06-17-18-3D6.jpg,gemstone,Feynmaline,561,piece,99,good,X99 rescue with noisy alternate families
+ScreenShot-2026-09-04_06-17-22-1B9.jpg,gemstone,Hadanite,500,piece,99,good,X99 case
+ScreenShot-2026-09-04_06-17-19-765.jpg,gemstone,Feynmaline,561,piece,99,good,X99 case
+ScreenShot-2026-09-04_06-17-12-C8F.jpg,gemstone,Beradom,881,piece,99,good,X99 case
+ScreenShot-2026-09-04_06-17-08-C92.jpg,gemstone,Hadanite,500,piece,99,good,Q500 crosscheck and X99
+ScreenShot-2026-09-04_06-17-07-959.jpg,gemstone,Hadanite,500,piece,99,good,X99 case
+ScreenShot-2026-09-04_06-17-04-C3B.jpg,gemstone,Beradom,881,piece,98,good,must not over-correct 98 into 99
+ScreenShot-2026-09-04_06-17-33-F1B.jpg,gemstone,Aphorite,686,piece,8,good,crosscheck status case
+ScreenShot-2026-09-04_06-17-07-610.jpg,gemstone,Beradom,500,piece,66,good,crosscheck status case
+ScreenShot-2026-09-04_06-32-34-AFD.jpg,freight,Taranite,646,scu,0.196,good,structured vs legacy crosscheck
+ScreenShot-2026-09-04_06-32-01-D7F.jpg,freight,Copper,855,scu,1.000,good,capacity 1.005 rejects impossible 9 SCU OCR
+ScreenShot-2026-09-04_06-32-29-916.jpg,freight,Riccite,870,scu,0.839,good,0.838 vs 0.839 near-jitter family
+ScreenShot-2026-09-04_06-32-52-3B5.jpg,freight,Savrilium,878,scu,0.414,good,structured crosscheck
+ScreenShot-2026-09-04_06-32-08-779.jpg,freight,Titanium,866,scu,0.493,good,structured-Q cross-source rescue
