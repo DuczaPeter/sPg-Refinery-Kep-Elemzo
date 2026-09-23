@@ -1,0 +1,17 @@
+PASS: index.html present
+PASS: baseline byte parity
+PASS: single root runtime HTML
+PASS: version consistency
+PASS: required release documentation/files (dot-prefixed included)
+PASS: release standard V4.2 marker
+PASS: release standard canonical V4.2 SHA-256
+PASS: license status resolved (MIT)
+PASS: credential / secret / private-fixture cleanliness
+PASS: local markdown links
+PASS: checksum existence parity
+PASS: every package file covered by CHECKSUMS
+PASS: line-ending policy
+PASS: no CRLF in normalizable text files
+PASS: HU/EN detailed documentation parity
+STATIC RELEASE GATE: PASS
+NOTE: this is not a runtime/browser/integration test.

@@ -1,0 +1,20 @@
+{
+  "release": "V1.40R23R6 Freight Material Evidence Adjudicator",
+  "dateOfRuntimeEvidence": "2026-09-13",
+  "evidenceLevel": "RUNTIME VERIFIED",
+  "testResult": "PASS",
+  "suite": "Freight 109-image suite",
+  "imageCount": 109,
+  "rowCount": 109,
+  "reviewCount": 0,
+  "totalScu": 82.239,
+  "gemstoneRowCount": 0,
+  "criticalTargetsVerified": 9,
+  "rawEvidencePubliclyBundled": false,
+  "rawEvidenceReason": "Private user runtime logs/screenshots intentionally excluded from public package.",
+  "limitations": [
+    "Freight-only suite",
+    "Not a fresh Gemstone regression",
+    "Not a fresh Refinery Work Order regression"
+  ]
+}

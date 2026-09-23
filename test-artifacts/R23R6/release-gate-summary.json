@@ -1,0 +1,66 @@
+{
+  "standardVersion": "V4.2",
+  "standardSha256": "f3b1358844a9f04da5ea8bfd6fe87b3051bd052e753bd8451991b39f894972b2",
+  "releaseVersion": "V1.40R23R6",
+  "date": "2026-09-23",
+  "canonicalBaseline": "index.html",
+  "mainArtifact": "index.html",
+  "baselineSha256": "a408b5377f34bad89ac5ec189394ae10c7c6bbe1b8d700b7b3b286e5569f0128",
+  "repositoryPublication": "MANUAL BY USER",
+  "evidence": {
+    "source": "SOURCE VERIFIED",
+    "static": "STATIC VERIFIED",
+    "runtime": "RUNTIME VERIFIED",
+    "integration": "NOT VERIFIED",
+    "publishedRepositoryParity": "NOT VERIFIED"
+  },
+  "tests": {
+    "baselineByteParity": "PASS",
+    "staticReleaseGate": "PASS",
+    "checksumExistenceParity": "PASS",
+    "lineEndingPolicyAutocrlfClone": "PASS",
+    "runtimeFreight109": "PASS",
+    "historicalMixed90": "PASS",
+    "liveUexIntegrationAtPackagingTime": "UNKNOWN",
+    "credentialSecretScan": "PASS"
+  },
+  "requiredGates": {
+    "done": [
+      "Canonical baseline",
+      "Main artifact",
+      "Baseline byte parity",
+      "Static validation",
+      "Runtime validation",
+      "Credential / secret cleanliness",
+      "License status resolved (MIT)",
+      "Version consistency",
+      "Regression evidence",
+      "Documentation",
+      "HU/EN parity",
+      "Third-party legal/source status",
+      "Package cleanliness",
+      "Checksums",
+      "Artifact consistency",
+      "Visual documentation",
+      "Inventory / checksum existence parity",
+      "Line-ending / .gitattributes policy",
+      "Canonical V4.2 standard identity"
+    ],
+    "nA": [],
+    "blocked": [
+      "Published repository parity (MANUAL BY USER, post-publish check pending)"
+    ]
+  },
+  "optionalGates": {
+    "done": [],
+    "nA": [],
+    "blocked": [
+      "Fresh live UEX integration at package time",
+      "Fresh full Gemstone + Refinery WO regression",
+      "Real UI screenshot",
+      "Actual GitHub social-preview setting"
+    ]
+  },
+  "packageStatus": "READY WITH LIMITATIONS",
+  "publishedReleaseStatus": "BLOCKED - post-publish fresh-clone verification pending"
+}

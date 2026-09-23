@@ -1,0 +1,34 @@
+{
+  "releaseVersion": "V1.40R23R6 Freight Material Evidence Adjudicator",
+  "standardVersion": "V4.2",
+  "standardSha256": "f3b1358844a9f04da5ea8bfd6fe87b3051bd052e753bd8451991b39f894972b2",
+  "packageDate": "2026-09-23",
+  "canonicalBaseline": "index.html",
+  "mainArtifact": "index.html",
+  "mainArtifactSha256": "a408b5377f34bad89ac5ec189394ae10c7c6bbe1b8d700b7b3b286e5569f0128",
+  "mainArtifactBytes": 550540,
+  "baselineByteParity": true,
+  "publicReleaseRequested": true,
+  "repositoryPublication": "MANUAL BY USER",
+  "licenseStatus": "RESOLVED - MIT (owner decision 2026-09-23)",
+  "packageStatus": "READY WITH LIMITATIONS",
+  "publishedReleaseStatus": "BLOCKED - post-publish fresh-clone verification pending",
+  "evidence": {
+    "source": "SOURCE VERIFIED",
+    "static": "STATIC VERIFIED",
+    "runtime": "RUNTIME VERIFIED",
+    "integration": "NOT VERIFIED",
+    "publishedRepositoryParity": "NOT VERIFIED"
+  },
+  "runtimeEvidence": {
+    "freight109": "PASS",
+    "historicalMixed90": "PASS"
+  },
+  "privateFixturesBundled": false,
+  "rawRuntimeLogsBundled": false,
+  "gateOutputs": [
+    "test-artifacts/R23R6/static-release-check.txt",
+    "test-artifacts/R23R6/release-gate-summary.json"
+  ],
+  "packageFileCount": 70
+}

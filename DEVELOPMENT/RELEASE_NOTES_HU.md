@@ -1,0 +1,28 @@
+# R23R6 release notes — magyar
+
+## Fő javítás
+
+Freight material evidence adjudication.
+
+A korábbi hibás esetben az OCR a teljes bal blokkban helyesen `Iron`-t olvasott, de egy szűk crop fuzzy `Construction Materials` találata érkezett előbb. R23R6-ban a crop-források találatai közös erősségi döntésbe kerülnek, ezért az exact canonical material felülírhatja a gyengébb fuzzy találatot.
+
+## Megőrzött javítások
+
+Az R23R4 hét kritikus Q/SCU javítása változatlanul megmaradt.
+
+## Runtime bizonyíték
+
+2026-09-13:
+- 109 Freight screenshot;
+- 109 sor;
+- review 0;
+- 82.239 SCU;
+- kritikus 9 target helyes.
+
+## Nincs új runtime dependency
+
+A release továbbra is egyetlen `index.html`.
+
+## 2026-09-23 — V4.2 csomag
+
+Az `index.html` nem változott. A saját kód licence MIT (tulajdonosi döntés). A csomag pótolja a publikált repositoryból hiányzó ponttal kezdődő fájlokat, `.gitattributes` sorvég-szabályt ad hozzá, az angol dokumentációt kiegészíti a részletes használati leírással, és a projektlokális szabványt a kanonikus V4.2-re cseréli.
