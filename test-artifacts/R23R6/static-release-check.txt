@@ -1,0 +1,8 @@
+PASS: baseline byte parity
+PASS: single root runtime HTML
+PASS: version consistency
+PASS: required release documentation/files
+PASS: credential / secret / private-fixture cleanliness
+PASS: local markdown links
+STATIC RELEASE GATE: PASS
+NOTE: this is not a runtime/browser/integration test.
